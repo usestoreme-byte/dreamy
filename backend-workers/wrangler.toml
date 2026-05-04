@@ -1,0 +1,14 @@
+name = "album-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "album-db"
+database_id = "875a2364-e21a-4425-853d-fbed69fdc34d"
+
+[vars]
+ALLOWED_ORIGINS = "*"
+FIREBASE_PROJECT_ID = "myott-a40db"
+ALLOWED_ADMIN_EMAILS = "usestoreme@gmail.com"   
